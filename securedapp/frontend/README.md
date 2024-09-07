@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### login page design url:
+`https://www.figma.com/design/br4YLCsq9GX1RWs9tfkwD7/Student-Portal-Login-(Community)?node-id=3-118&node-type=FRAME&t=Xeil5htBSlHx5a7Y-0`

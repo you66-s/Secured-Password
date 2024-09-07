@@ -3,11 +3,41 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import ErrorPage from "./pages/ErrorPage";
+import Home from "./pages/Home";
+import AddPassword from "./components/AddPassword";
+import UpdatePassword from "./components/UpdatePassword";
+const router = createBrowserRouter([
+    {
+        path: "/",
+        element: <App/>,
+        errorElement: <ErrorPage/>,
+        children: [
+            {
+                path: "home",
+                element: <Home/>,
+                errorElement: <ErrorPage/>,
+            },
+        ],
+    },
+    {
+        path: '/login',
+        element: <Login/>,
+        errorElement: <ErrorPage/>
+    },
+    {
+        path: '/register',
+        element: <Register/>,
+        errorElement: <ErrorPage/>
+    },
+])
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

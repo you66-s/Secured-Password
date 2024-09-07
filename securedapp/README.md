@@ -1,3 +1,6 @@
+# Secured-Password
+A secure and user-friendly password management application built with React.js for the frontend and PHP for the backend. This project provides a centralized platform to store, organize, and generate strong passwords for various online accounts.
+
 # Backend API Directory Structure
 
 The `api/` directory contains individual PHP scripts that serve as API endpoints for the front-end (e.g., a React.js application) to interact with. Each file is responsible for handling a specific API request (function or method in a basic language), processing the necessary business logic, and returning a JSON response to the client. These scripts make HTTP methods like `GET`, `POST`, `PUT`, or `DELETE` to handle various types of interactions between the client and the server.

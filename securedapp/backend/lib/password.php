@@ -28,6 +28,6 @@ function encryptPassword($password){
 function decryptPassword($idPassword){
     //Encrypt the password when storing it
 }
-function generatePassword(){
+function generatePassword($lenght, $upperCaseChar, $lowerCaseChar, $specialChar){
     //password generator
 }
